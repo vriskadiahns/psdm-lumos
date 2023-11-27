@@ -1,0 +1,61 @@
+:root{
+    --GriffindorDarkRed:#740001;
+    --GriffindorRed:#ae0001;
+    --GriffindorYellow:#eeba30;
+    --GriffinidorGold:#d3a625;
+    --SlytherinDarkGreen:#1a472a;
+    --SlytherinGreen:#2a623d;
+    --SlytherinDarkSilver:#5a5a5a;
+    --SlytherinLightSilver:#aaaaaa;
+    --RavenclawDarkBlue:#0e1a40;
+    --RavenclawBlue:#222f5b;
+    --RavenclawTheGreyLady:#bebebe;
+    --RavenclawGold:#946b2d;
+    --HufflepuffCanary:#eeb939;
+    --HufflepuffLlightCanary:#f0c75c;
+    --HufflepuffLightBrown:#726255;
+    --HufflepuffDarkBrown:#372e29;
+
+    --shadow: 0 2px 2px rgb(0, 0, 0 / 0.5);
+}
+
+@font-face {
+    font-family: 'Harry Potter';
+    src: url('font/HARRYP__.TTF') format('truetype');
+}
+
+body {
+    font-size: 2rem;
+    font-family: "Harry Potter", cursive;
+}
+
+.hero {
+    min-height: 720px;
+    background-color: var(--RavenclawDarkBlue);
+    background-image: url('backgroundLumos.png');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.hero h4 {
+    font-size: 3.5rem;
+    color: var(--HufflepuffDarkBrown);
+    margin-top: 5rem;
+}
+
+.hero p {
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+    color: var(--HufflepuffDarkBrown);
+}
+
+.hero a {
+    font-size: 1.5rem;
+    color: var(--GriffindorRed);
+    margin-top: 1.5rem;
+}
+
+.hero a:hover {
+    color: var(--GriffindorYellow);
+}
